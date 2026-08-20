@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 import os
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+API_URL = "https://dynamic-pricing-engine-74i2.onrender.com"
 
 st.title("🚗 Dynamic Ride Pricing & Explainability Engine")
 st.markdown("Predict fair base prices, apply real-time demand-driven surge multipliers, and inspect SHAP explainability.")
